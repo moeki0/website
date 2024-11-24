@@ -2,7 +2,10 @@ const App: React.FC = () => {
   return (
     <main className="p-8 max-w-[500px] mx-auto">
       <section className="">
-        <h1 className="font-bold text-2xl">HackLuckCat</h1>
+        <h1 className="font-bold text-2xl">KAWAKAMI Moeki</h1>
+      </section>
+      <section className="py-4">
+        <img src="/moeki.jpeg" className="shadow-xl w-20 h-20 rounded-full" />
       </section>
       <section className="py-2">
         <h2 className="mb-2 text-xl font-bold">Philosophy</h2>
@@ -11,6 +14,13 @@ const App: React.FC = () => {
           <li>Contributing to Poeple's Creativity</li>
           <li>Contributing to World Peace</li>
         </ol>
+      </section>
+      <section className="py-2">
+        <h2 className="mb-2 text-xl font-bold">Products</h2>
+        <ul className="list-disc list-inside">
+          <li><a href="https://dynawiki.org" className="underline hover:text-gray-600">Dynawiki - The Dynamic Wiki</a></li>
+          <li><a href="https://github.com/hackluckcat/baran" className="underline hover:text-gray-600">Baran - Text Splitter for LLM datasets</a></li>
+        </ul>
       </section>
       <section className="py-2">
         <h2 className="mb-2 text-xl font-bold">Status</h2>
@@ -25,13 +35,13 @@ const App: React.FC = () => {
         <h2 className="font-bold text-xl mb-2">Links</h2>
         <ul>
           <li>
-            <a className="underline hover:text-gray-600" href="https://github.com/moekiorg">github.com/hackluckcat</a>
+            <a className="underline hover:text-gray-600" href="https://github.com/kawakamimoeki">github.com/kawakamimoeki</a>
           </li>
-          <li><a className="underline hover:text-gray-600" href="mailto:hi@moeki.org">hi@hackluckcat.com</a></li>
+          <li><a className="underline hover:text-gray-600" href="mailto:hi@kawakamimoeki.org">hi@kawakamimoeki.org</a></li>
         </ul>
       </section>
       <footer className="py-4">
-        <p className="text-xs">&copy; 2024 HackLuckCat. All rights reserved.</p>
+        <p className="text-xs">&copy; 2024 KAWAKAMI Moeki. All rights reserved.</p>
       </footer>
     </main>
   )
