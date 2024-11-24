@@ -37,7 +37,7 @@ const App: React.FC = () => {
           <li>
             <a className="underline hover:text-gray-600" href="https://github.com/kawakamimoeki">github.com/kawakamimoeki</a>
           </li>
-          <li><a className="underline hover:text-gray-600" href="mailto:hi@kawakamimoeki.org">hi@kawakamimoeki.org</a></li>
+          <li><a className="underline hover:text-gray-600" href="mailto:hi@moeki.org">hi@moeki.org</a></li>
         </ul>
       </section>
       <footer className="py-4">
