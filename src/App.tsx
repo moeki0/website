@@ -16,13 +16,6 @@ const App: React.FC = () => {
         </ol>
       </section>
       <section className="py-2">
-        <h2 className="mb-2 text-xl font-bold">Products</h2>
-        <ul className="list-disc list-inside">
-          <li><a href="https://dynawiki.org" className="underline hover:text-gray-600">Dynawiki - The Dynamic Wiki</a></li>
-          <li><a href="https://github.com/hackluckcat/baran" className="underline hover:text-gray-600">Baran - Text Splitter for LLM datasets</a></li>
-        </ul>
-      </section>
-      <section className="py-2">
         <h2 className="mb-2 text-xl font-bold">Status</h2>
         <ul className="list-disc list-inside">
           <li>Hacker</li>
