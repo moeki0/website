@@ -28,7 +28,7 @@ const App: React.FC = () => {
         <h2 className="font-bold text-xl mb-2">Links</h2>
         <ul>
           <li>
-            <a className="underline hover:text-gray-600" href="https://github.com/kawakamimoeki">github.com/kawakamimoeki</a>
+            <a className="underline hover:text-gray-600" href="https://github.com/moekiorg">github.com/moekiorg</a>
           </li>
           <li><a className="underline hover:text-gray-600" href="mailto:hi@moeki.org">hi@moeki.org</a></li>
         </ul>
