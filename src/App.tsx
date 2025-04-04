@@ -1,11 +1,11 @@
-const App: React.FC = () => {
+const App: JSX.Element = () => {
   return (
     <main className="p-8 max-w-[500px] mx-auto">
       <section className="">
         <h1 className="font-bold text-2xl">KAWAKAMI Moeki</h1>
       </section>
       <section className="py-4">
-        <img src="/moeki.jpeg" className="shadow-xl w-20 h-20 rounded-full" />
+        <img src="/icon.png" className="shadow-xl w-20 h-20 rounded-full" />
       </section>
       <section className="py-2">
         <h2 className="mb-2 text-xl font-bold">Philosophy</h2>
@@ -28,16 +28,30 @@ const App: React.FC = () => {
         <h2 className="font-bold text-xl mb-2">Links</h2>
         <ul>
           <li>
-            <a className="underline hover:text-gray-600" href="https://github.com/moekiorg">github.com/moekiorg</a>
+            <a
+              className="underline hover:text-gray-600"
+              href="https://github.com/moekiorg"
+            >
+              github.com/moekiorg
+            </a>
           </li>
-          <li><a className="underline hover:text-gray-600" href="mailto:hi@moeki.org">hi@moeki.org</a></li>
+          <li>
+            <a
+              className="underline hover:text-gray-600"
+              href="mailto:hi@moeki.org"
+            >
+              hi@moeki.org
+            </a>
+          </li>
         </ul>
       </section>
       <footer className="py-4">
-        <p className="text-xs">&copy; 2024 KAWAKAMI Moeki. All rights reserved.</p>
+        <p className="text-xs">
+          &copy; 2024 KAWAKAMI Moeki. All rights reserved.
+        </p>
       </footer>
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;
