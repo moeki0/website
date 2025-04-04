@@ -1,4 +1,4 @@
-const App: JSX.Element = () => {
+const App: React.FC = () => {
   return (
     <main className="p-8 max-w-[500px] mx-auto">
       <section className="">
