@@ -30,17 +30,17 @@ const App: React.FC = () => {
           <li>
             <a
               className="underline hover:text-gray-600"
-              href="https://github.com/moekiorg"
+              href="https://github.com/kawakamidev"
             >
-              github.com/moekiorg
+              github.com/kawakamidev
             </a>
           </li>
           <li>
             <a
               className="underline hover:text-gray-600"
-              href="mailto:hi@moeki.org"
+              href="mailto:hi@kawakami.dev"
             >
-              hi@moeki.org
+              hi@kawakami.dev
             </a>
           </li>
         </ul>

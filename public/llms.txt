@@ -1,0 +1,24 @@
+# https://www.kawakami.dev/ llms-full.txt
+
+# KAWAKAMI Moeki
+
+![](https://www.kawakami.dev/icon.JPG)
+
+## Philosophy
+
+1. Contributing to Family's Happiness
+2. Contributing to Poeple's Creativity
+3. Contributing to World Peace
+
+## Status
+
+- Hacker
+- Servant of 4 cats
+- Caffeine lover
+- Believer in science
+
+## Links
+
+- [github.com/kawakamidev](https://github.com/kawakamidev)
+- [hi@kawakami.dev](mailto:hi@kawakami.dev)
+
