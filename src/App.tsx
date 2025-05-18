@@ -11,7 +11,7 @@ const App: React.FC = () => {
         <h2 className="mb-2 text-xl font-bold">Philosophy</h2>
         <ol className="list-decimal list-inside">
           <li>Contributing to Family's Happiness</li>
-          <li>Contributing to Poeple's Creativity</li>
+          <li>Contributing to People's Creativity</li>
           <li>Contributing to World Peace</li>
         </ol>
       </section>
