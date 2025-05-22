@@ -30,24 +30,24 @@ const App: React.FC = () => {
           <li>
             <a
               className="underline hover:text-gray-600"
-              href="https://github.com/kawakamidev"
+              href="https://github.com/moekiorg"
             >
-              github.com/kawakamidev
+              github.com/moekiorg
             </a>
           </li>
           <li>
             <a
               className="underline hover:text-gray-600"
-              href="mailto:hi@kawakami.dev"
+              href="mailto:hi@moeki.org"
             >
-              hi@kawakami.dev
+              hi@moeki.org
             </a>
           </li>
         </ul>
       </section>
       <footer className="py-4">
         <p className="text-xs">
-          &copy; 2024 KAWAKAMI Moeki. All rights reserved.
+          &copy; 2025 KAWAKAMI Moeki. All rights reserved.
         </p>
       </footer>
     </main>
