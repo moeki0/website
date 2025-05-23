@@ -2,7 +2,7 @@ const App: React.FC = () => {
   return (
     <main className="p-8 max-w-[500px] mx-auto">
       <section className="">
-        <h1 className="font-bold text-2xl">KAWAKAMI Moeki</h1>
+        <h1 className="font-bold text-2xl">Moeki Kawakami</h1>
       </section>
       <section className="py-4">
         <img src="/icon.JPG" className="shadow-xl w-20 h-20 rounded-full" />
@@ -47,7 +47,7 @@ const App: React.FC = () => {
       </section>
       <footer className="py-4">
         <p className="text-xs">
-          &copy; 2025 KAWAKAMI Moeki. All rights reserved.
+          &copy; 2025 Moeki Kawakami. All rights reserved.
         </p>
       </footer>
     </main>

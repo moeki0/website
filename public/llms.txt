@@ -1,6 +1,6 @@
-# https://www.kawakami.dev/ llms-full.txt
+# https://www.moeki.org/ llms-full.txt
 
-# KAWAKAMI Moeki
+# Moeki Kawakami
 
 ![](https://www.kawakami.dev/icon.JPG)
 
@@ -19,6 +19,6 @@
 
 ## Links
 
-- [github.com/kawakamidev](https://github.com/kawakamidev)
-- [hi@kawakami.dev](mailto:hi@kawakami.dev)
+- [github.com/moekiorg](https://github.com/moekiorg)
+- [hi@moeki.org](mailto:hi@moeki.org)
 
