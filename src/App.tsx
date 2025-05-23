@@ -5,7 +5,7 @@ const App: React.FC = () => {
         <h1 className="font-bold text-2xl">Moeki Kawakami</h1>
       </section>
       <section className="py-4">
-        <img src="/icon.JPG" className="shadow-xl w-20 h-20 rounded-full" />
+        <img src="/icon.png" className="shadow-xl w-20 h-20 rounded-full" />
       </section>
       <section className="py-2">
         <h2 className="mb-2 text-xl font-bold">Philosophy</h2>
