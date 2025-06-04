@@ -1,22 +1,29 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter Tight', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        serif: ['Lora', 'Georgia', 'serif']
+      },
       animation: {
-        fade: 'fadeIn 0.3s ease-in-out',
+        'fade': 'fade 0.5s ease-in-out'
       },
       keyframes: {
-        fadeIn: {
-          '0%': { opacity: 0 },
-          '100%': { opacity: 1 },
+        fade: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' }
+        }
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: 'none',
+          },
         },
       },
-    },
+    }
   },
-  plugins: [],
+  plugins: []
 }
-

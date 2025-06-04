@@ -1,0 +1,49 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = 'Moeki Kawakami', description = 'Personal website and blog of Moeki Kawakami - Hacker, servant of 4 cats, caffeine lover, and believer in science.' } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/icon.JPG" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  </head>
+  <body class="text-gray-800 animate-fade">
+    <div class="container">
+      <slot />
+    </div>
+  </body>
+</html>
+
+<style>
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .animate-fade {
+    animation: fade 0.5s ease-in-out;
+  }
+
+  .container {
+    min-height: 100vh;
+  }
+</style>

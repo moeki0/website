@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
+# Moeki Kawakami - Personal Website & Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal website and blog built with Astro.
 
-Currently, two official plugins are available:
+## 🚀 Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+.
+├── public/           # Static assets
+├── src/
+│   ├── components/   # Astro/React/Vue/Svelte/Preact components
+│   ├── content/      # Content collections (blog posts)
+│   │   └── blog/    # Blog posts in Markdown
+│   ├── layouts/      # Page layouts
+│   ├── pages/        # Pages and routes
+│   └── styles/       # Global styles
+├── astro.config.mjs  # Astro configuration
+├── tailwind.config.js # Tailwind CSS configuration
+└── package.json
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🧞 Commands
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+All commands are run from the root of the project, from a terminal:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+
+## ✍️ Writing Blog Posts
+
+Create new blog posts in `src/content/blog/`:
+
+```markdown
+---
+title: 'My Blog Post Title'
+description: 'A brief description of my post'
+pubDate: 2025-01-30
+---
+
+Your content here...
 ```
+
+## 🎨 Styling
+
+This project uses Tailwind CSS for styling. The configuration is in `tailwind.config.js`.
+
+## 📝 License
+
+© 2025 Moeki Kawakami. All rights reserved.
