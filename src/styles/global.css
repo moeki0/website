@@ -2,29 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom prose styles for blog posts */
+/* Prose styles for Markdown content */
 .prose {
-  @apply font-serif;
+  @apply max-w-none text-gray-900;
+}
+
+.prose h1 {
+  @apply text-3xl font-bold mb-6 mt-8 first:mt-0;
+}
+
+.prose h2 {
+  @apply text-2xl font-bold mb-4 mt-8 first:mt-0 border-b-2 border-gray-300 pb-2;
+}
+
+.prose h3 {
+  @apply text-xl font-semibold mb-3 mt-6;
+}
+
+.prose h4 {
+  @apply text-lg font-semibold mb-2 mt-4;
 }
 
 .prose p {
-  @apply mb-4;
-}
-
-.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-  @apply mt-8 mb-4 font-sans;
+  @apply mb-4 leading-relaxed;
 }
 
 .prose ul, .prose ol {
-  @apply mb-4 pl-8;
+  @apply mb-4 pl-6;
+}
+
+.prose ul {
+  @apply list-disc;
+}
+
+.prose ol {
+  @apply list-decimal;
+}
+
+.prose li {
+  @apply mb-1;
+}
+
+.prose strong {
+  @apply font-semibold;
+}
+
+.prose em {
+  @apply italic;
+}
+
+.prose code {
+  @apply bg-gray-100 px-1 py-0.5 rounded text-sm font-mono;
 }
 
 .prose pre {
   @apply bg-gray-100 rounded-md p-4 overflow-x-auto mb-4;
-}
-
-.prose code {
-  @apply bg-gray-100 px-1 py-0.5 rounded text-sm;
 }
 
 .prose pre code {
@@ -32,5 +64,25 @@
 }
 
 .prose blockquote {
-  @apply border-l-4 border-gray-200 pl-4 ml-0 mb-4 italic;
+  @apply border-l-4 border-gray-200 pl-4 ml-0 mb-4 italic text-gray-700;
+}
+
+.prose a {
+  @apply text-blue-600 underline hover:text-blue-800;
+}
+
+.prose table {
+  @apply w-full border-collapse mb-4;
+}
+
+.prose th, .prose td {
+  @apply border border-gray-300 px-3 py-2 text-left;
+}
+
+.prose th {
+  @apply bg-gray-50 font-semibold;
+}
+
+.prose hr {
+  @apply border-t-2 border-gray-300 my-8;
 }

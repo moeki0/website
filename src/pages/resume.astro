@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { readFileSync } from 'fs';
+import { marked } from 'marked';
+
+// Read and parse the Markdown content
+const resumeMarkdown = readFileSync('./src/content/resume.md', 'utf-8');
+const resumeHtml = marked(resumeMarkdown);
+---
+
+<BaseLayout title="Resume - Moeki Kawakami">
+  <main class="p-8 max-w-[800px] mx-auto">
+    <div class="prose" set:html={resumeHtml}></div>
+
+    <footer class="py-8 text-center">
+      <a href="/" class="underline hover:text-gray-600">← ホームに戻る</a>
+    </footer>
+  </main>
+</BaseLayout>
