@@ -5,7 +5,7 @@
 | Key            | Value                                      |
 | -------------- | ------------------------------------------ |
 | 氏名           | 川上 萌稀、かわかみ もえき、Kawakami Moeki |
-| ID             | `moekiorg`                                 |
+| ID             | `moeki*`                                   |
 | メールアドレス | [me@moeki.org](mailto:me@moeki.org)        |
 | 居住地         | 石川県                                     |
 | 最終学歴       | 金沢大学理工学域電子情報学類卒             |
@@ -34,7 +34,7 @@
 
 - CommonMark
   - CommonMark のパーサーを書いたりしました
-  - https://github.com/moekiorg/mquve
+  - https://github.com/moeki0/mquve
 - 生成 AI
   - GPT-3.5 の API が公開されてからプロダクトで活用を始めました
   - 最近は長期記憶や AI エージェントについて研究しています
