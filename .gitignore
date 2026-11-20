@@ -53,3 +53,6 @@ lerna-debug.log*
 .env.production.local
 .env.development.local
 .env.test.local
+
+# Cloudflare
+.wrangler
